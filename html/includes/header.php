@@ -6,6 +6,8 @@
     <title><?php echo SITE_TITLE; ?></title>
     <link href="styles/site.css" rel="stylesheet" type="text/css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
 </head>
 <body>
 <div class="outer-wrapper">
