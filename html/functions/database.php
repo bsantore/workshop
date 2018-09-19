@@ -108,10 +108,6 @@ The site admin username and password are both &quot;admin&quot;.
         <h5>Customize your site</h5>
 After you login, you can add, delete, and modify web pages.
      </li>
-    <li class="asterisk">
-        <div class="visit">
-To learn more about PhpStorm, visit <a href="http://www.jetbrains.com/phpstorm" title="PhpStorm website">jetbrains.com/phpstorm</a>.
-        </div>
      </li>
 </ol>';
 

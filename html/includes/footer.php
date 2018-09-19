@@ -8,8 +8,8 @@ include SITE_PATH . '/includes/closeDB.php';
         </div>
         <div class="float-right">
             <ul id="social">
-                <li><a href="http://facebook.com" class="facebook">Facebook</a></li>
-                <li><a href="http://twitter.com" class="twitter">Twitter</a></li>
+                <li><a href="https://www.meetup.com/phillyphp/?_cookie-check=8oYSmcBgvGdDkuLW">Meetup</a></li>
+                <li><a href="https://twitter.com/phillyphp?lang=en">Twitter</a></li>
             </ul>
         </div>
     </div>

@@ -484,23 +484,6 @@ ul#social li a {
     text-decoration: none;
 }
 
-a.facebook, a.twitter {
-    display: block;
-    float: left;
-    height: 24px;
-    padding-left: 17px;
-    text-indent: -9999px;
-    width: 16px;
-}
-
-a.facebook {
-    background: url("../images/facebook.png") no-repeat;
-}
-
-a.twitter {
-    background: url("../images/twitter.png") no-repeat;
-}
-
 textarea#content {
     width: 400px;
     height: 400px;
@@ -671,16 +654,6 @@ textarea#content {
     ul#social {
         padding: 0;
         margin: 0;
-    }
-
-    a.facebook, a.twitter {
-        background: none;
-        display: inline;
-        float: none;
-        height: auto;
-        padding-left: 0;
-        text-indent: 0;
-        width: auto;
     }
 
     /* product display
