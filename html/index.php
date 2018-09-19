@@ -4,12 +4,20 @@ require_once SITE_PATH . '/includes/connectDB.php';
 include SITE_PATH . '/includes/header.php';
 ?>
 
+
+
     <div id="main">
         <?php
-        $pageid = $_GET['pageid'];
+        $pageid = '';
+
+        if (isset($_GET['pageid'])) {
+            $pageid =  $_GET['pageid'];
+        }
+
         if ($pageid == 0 || $pageid == '') {
             $pageid = 1;
         }
+
         $query = 'SELECT menulabel, content FROM pages WHERE id = ? LIMIT 1';
         $statement = $databaseConnection->prepare($query);
         $statement->bind_param('s', $pageid);
