@@ -7,7 +7,7 @@ define('DB_HOST', '127.0.0.1');
 define('DEFAULT_ADMIN_USERNAME', 'admin');
 define('DEFAULT_ADMIN_PASSWORD', 'admin');
 
-define('SITE_TITLE', 'PhpStorm Simple CMS');
+define('SITE_TITLE', 'PHP Philly CMS');
 if (!defined('SITE_PATH')) {
     define('SITE_PATH', dirname(realpath(__FILE__)));
 
