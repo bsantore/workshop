@@ -16,10 +16,13 @@ if (isset($_POST['submit'])) {
     $statement->store_result();
 
     if ($statement->num_rows == 1) {
-        $statement->bind_result($username, $password);
+        $userId = null;
+        $username = null;
+
+        $statement->bind_result($userId, $username);
         $statement->fetch();
 
-        $session->set('userid', $password);
+        $session->set('userid', $userId);
         $session->set('username', $username);
 
         header("Location: index.php");
