@@ -27,9 +27,6 @@ if (isset($_POST['submit'])) {
         echo 'Failed adding new page';
     }
 }
-?>
-<?php include '../templates/add-page.php'; ?>
 
-</div> <!-- End of outer-wrapper which opens in header.php -->
-<?php include SITE_PATH . '/includes/footer.php'; ?>
-
+include '../templates/add-page.php';
+include SITE_PATH . '/includes/footer.php';
