@@ -3,6 +3,7 @@ This project is a base from PHPStorm and will be used as starting point for PHPh
 
 # Running the project
 * Install Vagrant
+* Clone repository
 * Navigate to folder via command prompt
 * Type Vagrant up
 * Wait for machine to load and then go to 192.168.50.4
