@@ -81,6 +81,6 @@ if (isset($_GET['id'])) {
         </fieldset>
     </form>
 </div>
-</div> <!-- End of outer-wrapper which opens in header.php -->
+
 <?php include SITE_PATH . '/includes/footer.php'; ?>
 

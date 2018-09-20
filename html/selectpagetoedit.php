@@ -58,5 +58,5 @@ if (isset($_POST['submit'])) {
         <br/>
         <a href="index.php">Cancel</a>
     </div>
-    </div> <!-- End of outer-wrapper which opens in header.php -->
+
 <?php include SITE_PATH . '/includes/footer.php'; ?>

@@ -59,7 +59,7 @@ if (isset($_POST['submit'])) {
             </fieldset>
         </form>
     </div>
-    </div> <!-- End of outer-wrapper which opens in header.php -->
+
 <?php
 include SITE_PATH . '/includes/footer.php';
 ?>

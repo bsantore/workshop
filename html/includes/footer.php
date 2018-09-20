@@ -1,6 +1,7 @@
 <?php
 include SITE_PATH . '/includes/closeDB.php';
 ?>
+</div>
 <footer>
     <div class="footer-wrapper">
         <div class="float-left">
