@@ -1,4 +1,3 @@
-<?php require_once SITE_PATH . '/includes/session.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

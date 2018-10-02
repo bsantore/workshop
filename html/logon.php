@@ -2,6 +2,8 @@
 require_once 'config.php';
 require_once SITE_PATH . '/includes/session.php';
 require_once SITE_PATH . '/includes/connectDB.php';
+require_once SITE_PATH . '/includes/session.php';
+
 include SITE_PATH . '/includes/header.php';
 
 if (isset($_POST['submit'])) {
