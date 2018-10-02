@@ -40,4 +40,5 @@ include SITE_PATH . '/includes/header.php';
 
 <?php
 include SITE_PATH . '/includes/footer.php';
-?>
+
+include SITE_PATH . '/includes/closeDB.php';

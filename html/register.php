@@ -63,4 +63,5 @@ if (isset($_POST['submit'])) {
 
 <?php
 include SITE_PATH . '/includes/footer.php';
-?>
+
+include SITE_PATH . '/includes/closeDB.php';

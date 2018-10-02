@@ -60,4 +60,7 @@ if (isset($_POST['submit'])) {
         <a href="index.php">Cancel</a>
     </div>
 
-<?php include SITE_PATH . '/includes/footer.php'; ?>
+<?php
+include SITE_PATH . '/includes/footer.php';
+
+include SITE_PATH . '/includes/closeDB.php';

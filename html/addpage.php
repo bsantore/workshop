@@ -32,3 +32,5 @@ if (isset($_POST['submit'])) {
 
 include '../templates/add-page.php';
 include SITE_PATH . '/includes/footer.php';
+
+include SITE_PATH . '/includes/closeDB.php';
