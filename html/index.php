@@ -1,12 +1,8 @@
 <?php
 require_once 'config.php';
-require_once SITE_PATH . './../includes/connectDB.php';
-require_once SITE_PATH . './../includes/session.php';
+
 include '../templates/partials/header.php';
 ?>
-
-
-
     <div id="main">
         <?php
         $pageid = '';

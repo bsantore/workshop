@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once SITE_PATH . './../includes/connectDB.php';
+
 require_once SITE_PATH . './../includes/classes/Session.php';
 
 /* Setup new session */
