@@ -1,5 +1,5 @@
 <?php
-require_once 'config.php';
+require_once 'bootstrap.php';
 
 confirm_is_admin($session);
 include '../templates/partials/header.php';
