@@ -1,7 +1,7 @@
 <?php
 require_once 'config.php';
-require_once SITE_PATH . '/includes/connectDB.php';
-require_once SITE_PATH . '/includes/session.php';
+require_once SITE_PATH . './../includes/connectDB.php';
+require_once SITE_PATH . './../includes/session.php';
 confirm_is_admin($session);
 
 include '../templates/partials/header.php';
@@ -32,4 +32,4 @@ if (isset($_POST['submit'])) {
 }
 include '../templates/delete-page.php';
 include '../templates/partials/footer.php';
-include SITE_PATH . '/includes/closeDB.php';
+include SITE_PATH . './../includes/closeDB.php';
