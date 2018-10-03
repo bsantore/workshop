@@ -5,7 +5,7 @@ require_once SITE_PATH . '/includes/connectDB.php';
 require_once SITE_PATH . '/includes/session.php';
 confirm_is_admin($session);
 
-include SITE_PATH . '/includes/header.php';
+include '../templates/partials/header.php';
 
 $pageId = null;
 $menulabel = null;
@@ -58,6 +58,6 @@ if (isset($_GET['id'])) {
 }
 
 include '../templates/edit-page.php';
-include SITE_PATH . '/includes/footer.php';
+include '../templates/partials/footer.php';
 
 include SITE_PATH . '/includes/closeDB.php';
