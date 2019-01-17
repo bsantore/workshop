@@ -14,5 +14,7 @@ if (!defined('SITE_PATH')) {
     set_include_path(get_include_path() . PATH_SEPARATOR . SITE_PATH);
 }
 
+require_once '../vendor/autoload.php';
+
 require_once SITE_PATH . './../includes/session.php';
 require_once SITE_PATH . './../includes/connectDB.php';

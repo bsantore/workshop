@@ -1,0 +1,12 @@
+{% extends 'layout.twig' %}
+
+{% block content %}
+    <div id="main">
+    {% if CONTENT %}
+        <H2>{{ MENU_LABEL }}</H2>
+        {{ CONTENT }}
+    {% else %}
+        <H2>Page Not Found</H2>
+    {% endif %}
+    </div>
+{% endblock %}
