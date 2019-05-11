@@ -1,7 +1,12 @@
 /vendor
 .DS_Store
 
-/.vagrant
 
 /.idea
 /.vscode
+
+src/config.php
+/vendor
+/public/node_modules
+/Archive
+# docker-compose.yml

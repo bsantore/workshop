@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+# php-fpm.conf
+vars='$FPM_MAX_CHILDREN:$FPM_START_SERVERS:$FPM_MIN_SPARE_SERVERS:$FPM_MAX_SPARE_SERVERS'
+envsubst "$vars" \
+  < /usr/local/etc/php-fpm.conf.template \
+  > /usr/local/etc/php-fpm.conf
+
+# php.ini
+vars='$PHP_DISPLAY_ERRORS:$PHP_ERROR_REPORTING:$PHP_HTML_ERRORS'
+envsubst "$vars" \
+  < /usr/local/etc/php/php.ini.template \
+  > /usr/local/etc/php/php.ini
+
+# Run CLI commands with dumb-init to allow better signal handling.
+# PHP-FPM should not need it, so allow FPM to run as PID 1.
+# https://engineeringblog.yelp.com/2016/01/dumb-init-an-init-for-docker.html
+if [ "$1" == 'php-fpm' ] ; then
+  exec php-fpm
+else
+  exec dumb-init -- "$@"
+fi

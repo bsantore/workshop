@@ -1,0 +1,25 @@
+version: '3.4'
+services:
+
+  nginx:
+    build:
+      context: .
+      dockerfile: ./docker/nginx/Dockerfile
+    image: mttyd/workshop-nginx:${TAG:-latest}
+    environment:
+      FPM_HOST: php
+    ports:
+      - 8080:80
+    volumes:
+      - .:/usr/local/src/app
+
+
+  php:
+    build:
+      context: .
+      dockerfile: ./docker/php/Dockerfile
+    image: mttyd/workshop-php:${TAG:-latest}
+    env_file:
+      - ./docker/local.env
+    volumes:
+      - .:/usr/local/src/app
