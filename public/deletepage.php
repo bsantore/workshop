@@ -31,4 +31,4 @@ if (isset($_POST['submit'])) {
 }
 include '../templates/delete-page.php';
 include '../templates/partials/footer.php';
-include SITE_PATH . './../includes/closeDB.php';
+include '../src/closeDB.php';

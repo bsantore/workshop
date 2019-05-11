@@ -42,4 +42,4 @@ print $template->render(
     ]
 );
 
-include SITE_PATH . './../includes/closeDB.php';
+include '../src/closeDB.php';

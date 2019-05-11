@@ -45,6 +45,9 @@ RUN wget -O /usr/local/bin/dumb-init https://github.com/Yelp/dumb-init/releases/
 RUN curl -sS https://getcomposer.org/installer | php -- \
   --filename=composer --install-dir=/usr/local/bin
    
+# Trying to install mysqli
+RUN docker-php-ext-install mysqli && docker-php-ext-enable mysqli
+
 
 # Copy PHP config file templates.
 COPY ./docker/php/php.ini /usr/local/etc/php/php.ini.template

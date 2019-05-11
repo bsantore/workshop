@@ -1,8 +1,8 @@
 <?php
-define('DB_NAME', 'phpstorm');
-define('DB_USER', 'phpstorm');
-define('DB_PASSWORD', '');
-define('DB_HOST', '127.0.0.1');
+define('DB_NAME', 'jetbrains');
+define('DB_USER', 'root');
+define('DB_PASSWORD', 'phpstorm');
+define('DB_HOST', 'db');
 
 define('DEFAULT_ADMIN_USERNAME', 'admin');
 define('DEFAULT_ADMIN_PASSWORD', 'admin');
@@ -16,5 +16,5 @@ if (!defined('SITE_PATH')) {
 
 require_once '../vendor/autoload.php';
 
-require_once SITE_PATH . './../includes/session.php';
-require_once SITE_PATH . './../includes/connectDB.php';
+require_once '../src/classes/Session.php';
+require_once '../src/connectDB.php';

@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-require_once SITE_PATH . './../includes/classes/Session.php';
+require_once '../src/classes/Session.php';
 
 /* Setup new session */
 $sessionType = 'Session';
