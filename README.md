@@ -19,7 +19,7 @@ This project is a base from PHPStorm and will be used as starting point for PHPh
 * You can also try docker network prune to make sure no weird networks are messing you up
 
 # ToDo
-* STILL NEEDS MYSQL to be added to Docker!!!!!!!!!
+**SITE ISN'T FUNCTIONAL BUT DOCKER STACK IS WORKING**
 * Implement Twig, for templating
 * Extract business logic of pages into src directory
 * 
