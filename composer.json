@@ -11,6 +11,8 @@
         }
     ],
     "require": {
-        "twig/twig": "2.x-dev"
+        "twig/twig": "2.x-dev",
+        "php": "~7.2",
+        "twbs/bootstrap": "4.1.3"
     }
 }
