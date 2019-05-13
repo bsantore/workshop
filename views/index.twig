@@ -4,9 +4,11 @@
     <div id="main">
     {% if CONTENT %}
         <H2>{{ MENU_LABEL }}</H2>
-        {{ CONTENT }}
+        {% autoescape false %}
+            {{ CONTENT }}
+        {% endautoescape %}
     {% else %}
         <H2>Page Not Found</H2>
     {% endif %}
-    </div>
+    </div>    
 {% endblock %}

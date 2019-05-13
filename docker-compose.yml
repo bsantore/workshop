@@ -21,6 +21,11 @@ services:
     image: mttyd/workshop-php:${TAG:-latest}
     env_file:
       - ./docker/local.env
+    environment:
+      DB_NAME: 'jetbrains'
+      DB_HOST: 'db'
+      DB_USER: 'root'
+      DB_PASSWORD: 'phpstorm'
     volumes:
       - .:/usr/local/src/app
        

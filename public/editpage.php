@@ -3,7 +3,7 @@ require_once 'bootstrap.php';
 
 confirm_is_admin($session);
 
-include '../templates/partials/header.php';
+// include '../templates/partials/header.php';
 
 $pageId = null;
 $menulabel = null;

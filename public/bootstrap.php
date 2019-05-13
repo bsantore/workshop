@@ -1,9 +1,4 @@
 <?php
-define('DB_NAME', 'jetbrains');
-define('DB_USER', 'root');
-define('DB_PASSWORD', 'phpstorm');
-define('DB_HOST', 'db');
-
 define('DEFAULT_ADMIN_USERNAME', 'admin');
 define('DEFAULT_ADMIN_PASSWORD', 'admin');
 

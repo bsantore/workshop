@@ -1,7 +1,7 @@
 <?php
 require_once 'bootstrap.php';
 
-include '../templates/partials/header.php';
+// include '../templates/partials/header.php';
 
 if (isset($_POST['submit'])) {
     $username = $_POST['username'];
