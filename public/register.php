@@ -1,7 +1,7 @@
 <?php
 require_once 'bootstrap.php';
 
-include '../templates/partials/header.php';
+// include '../templates/partials/header.php';
 
 if (isset($_POST['submit'])) {
     $username = $_POST['username'];
@@ -37,4 +37,4 @@ if (isset($_POST['submit'])) {
 include '../templates/register.php';
 include '../templates/partials/footer.php';
 
-include SITE_PATH . './../includes/closeDB.php';
+include '../src/closeDB.php';

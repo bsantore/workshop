@@ -3,7 +3,7 @@ require_once 'bootstrap.php';
 
 confirm_is_admin($session);
 
-include '../templates/partials/header.php';
+// include '../templates/partials/header.php';
 
 $pageId = null;
 $menulabel = null;
@@ -58,4 +58,4 @@ if (isset($_GET['id'])) {
 include '../templates/edit-page.php';
 include '../templates/partials/footer.php';
 
-include SITE_PATH . './../includes/closeDB.php';
+include '../src/closeDB.php';

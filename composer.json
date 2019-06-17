@@ -1,6 +1,6 @@
 {
-    "name": "jetbrains/phpstorm-workshop",
-    "description": "Materials for the PhpStorm workshop. Check https://github.com/jetbrains/phpstorm-workshop/ for more info.",
+    "name": "mttyd/workshop",
+    "description": "Dockerized PhpStorm workshop. Check https://github.com/jetbrains/phpstorm-workshop/ for more info.",
     "minimum-stability": "dev",
     "license": "Apache-2.0",
     "type": "project",
@@ -9,5 +9,10 @@
             "name": "Maksim Kolmakov",
             "email": "maxim.kolmakov@jetbrains.com"
         }
-    ]
+    ],
+    "require": {
+        "twig/twig": "2.x-dev",
+        "php": "~7.2",
+        "twbs/bootstrap": "4.1.3"
+    }
 }
